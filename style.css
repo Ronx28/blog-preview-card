@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 375px;
+    height: 440px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px black;
+    border: 2px solid black;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+.container h3{
+   font-size: medium;
+   font-family: 'Figtree';
+   font-size: 16px;
+
+}
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+}
+.learning h3{
+    font-weight: bold;
+    font-family: 'Figtree';
+    margin: 0;
+    font-size: 15px;
+}
+.publised p{
+    font-size: 16px;
+    font-family: 'Figtree';
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 25px;
+    font-family: 'Figtree';
+    margin-top: 15px;
+}
+.container p{
+   margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Figtree';
+    color: hsl(0, 0%, 50%);
+}
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+}
+.avatar img{
+    width: 30px;
+    margin-right: 20px;
+}
+.avatar h5{
+    font-weight: bold;
+    font-style: 'Figtree';
+    font-size: medium;
+}
+
+@media (max-width: 575px){
+    .container{
+        width: 80vw;
+        height: 450px;
+        padding: 15px;
+    }
+}
